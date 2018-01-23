@@ -1,0 +1,381 @@
+/*************************************************************************************/
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-device-width : 415px) {
+    .load-5, .load-6, .load-7, .load-8, .load-9, .load-10, .load-11, .load-12{
+        display:none;
+    }
+    .photo-loader div div {
+        min-width:50%;
+    }
+    .load-2{order:1;}
+    .load-4{order:2;}
+    .load-banner{
+        animation:load-it 1.5s ease-in forwards;
+        animation-iteration-count:1;
+        opacity:0;
+        animation-delay:2.5s;
+        right:10%;
+    }
+    .begin{
+    animation:load-it .75s ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:4.5s;
+    opacity:0;
+}
+.your{
+        animation:load-it .75s ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:5.5s;
+    opacity:0;
+}
+.journey{
+        animation:load-it .75s ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:6.5s;
+    opacity:0;
+}
+        .play-button{
+        animation:load-it .75s ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:7.5s;
+    opacity:0;
+}
+}
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-device-width : 639px) and (max-device-width : 767px){
+/* Styles */
+        .load-banner{
+        animation:load-it 1.5s ease-in forwards;
+        animation-iteration-count:1;
+        opacity:0;
+        animation-delay:6.5s;
+        right:10%;
+    }
+        .begin{
+    animation:load-it .75s ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:8.5s;
+    opacity:0;
+}
+.your{
+        animation:load-it .75s ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:9.5s;
+    opacity:0;
+}
+.journey{
+        animation:load-it .75s ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:10.5s;
+    opacity:0;
+}
+        .play-button{
+        animation:load-it .75s ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:11.5s;
+    opacity:0;
+}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1367px) {
+/* Styles */
+    .load-banner{
+        animation:load-it 1.5s ease-in forwards;
+        animation-iteration-count:1;
+        opacity:0;
+        animation-delay:3.5s;
+        right:10%;
+    }
+            .begin{
+    animation:load-it .75s ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:5.5s;
+    opacity:0;
+}
+.your{
+        animation:load-it .75s ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:6.5s;
+    opacity:0;
+}
+.journey{
+        animation:load-it .75s ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:7.5s;
+    opacity:0;
+}
+        .play-button{
+        animation:load-it .75s ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:8.5s;
+    opacity:0;
+}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 1026px) and (max-device-width : 1367px) and (orientation : landscape) {
+/* Styles */
+        .load-banner{
+        animation:load-it 1.5s ease-in forwards;
+        animation-iteration-count:1;
+        opacity:0;
+        animation-delay:6.5s;
+        right:10%;
+    }
+            .begin{
+    animation:load-it .75s ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:8.5s;
+    opacity:0;
+}
+.your{
+        animation:load-it .75s ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:9.5s;
+    opacity:0;
+}
+.journey{
+        animation:load-it .75s ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:10.5s;
+    opacity:0;
+}    .play-button{
+        animation:load-it .75s ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:11.5s;
+    opacity:0;
+}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 767px) and (max-device-width : 1025px) and (orientation : portrait) {
+/* Styles */
+    .load-7, .load-8, .load-9, .load-10, .load-11, .load-12{
+        display:none;
+    }
+    .photo-loader div div {
+        min-width:calc(100% / 3);
+    }
+    .load-2{order:1;}
+    .load-4{order:2;}
+    .load-banner{
+        animation:load-it 1.5s ease-in forwards;
+        animation-iteration-count:1;
+        opacity:0;
+        animation-delay:3.5s;
+        right:10%;
+    }
+            .begin{
+    animation:load-it .75s ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:5.5s;
+    opacity:0;
+}
+.your{
+        animation:load-it .75s ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:6.5s;
+    opacity:0;
+}
+.journey{
+        animation:load-it .75s ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:7.5s;
+    opacity:0;
+}
+        .play-button{
+        animation:load-it .75s ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:8.5s;
+    opacity:0;
+}
+}
+
+@media only screen and (min-device-width: 769px){
+    .load-banner{
+        animation:load-it 1.5s ease-in forwards;
+        animation-iteration-count:1;
+        opacity:0;
+        animation-delay:6.5s;
+        right:16.6%;
+    }
+            .begin{
+    animation:load-it .75s ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:8.5s;
+    opacity:0;
+}
+.your{
+        animation:load-it .75s ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:9.5s;
+    opacity:0;
+}
+.journey{
+        animation:load-it .75s ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:10.5s;
+    opacity:0;
+}
+
+    .play-button{
+        animation:load-it .75s ease-in forwards;
+    animation-iteration-count:1;
+    animation-delay:11.5s;
+    opacity:0;
+}
+}
+
+/**************************************************************************************/
+
+body {
+    margin: 0;
+}
+.photo-loader{
+    position:relative;
+    margin: 0 auto;
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    background: black;
+    overflow: hidden;
+}
+.photo-loader > div:not(:last-child) {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.photo-loader div div {
+    width: calc(100% / 6);
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*  background-image:url('somepic.jpg');*/
+}
+.load-1 {
+    animation:load-it 0.1s forwards;
+    animation-iteration-count:1;
+    animation-delay:0.5s;
+    opacity:0;
+    background-image:url("https://i.pinimg.com/originals/5e/17/fe/5e17fe61fd295bff09c110daa942eabd.jpg");
+}
+
+.load-2 {
+        animation:load-it 0.1s forwards;
+    animation-iteration-count:1;
+    animation-delay:1s;
+    opacity:0;
+    background-image:url("https://www.nbc.com/sites/nbcunbc/files/files/images/2014/5/09/2014_0507_NBCUXD_Upfront2014_MarryMe_Bio_KenMarino_1230x1230_CC.jpg");
+}
+
+.load-3 {
+        animation:load-it 0.1s forwards;
+    animation-iteration-count:1;
+    animation-delay:1.5s;
+    opacity:0;
+    background-image:url("https://images-na.ssl-images-amazon.com/images/M/MV5BMTUwMTgxODU3MV5BMl5BanBnXkFtZTcwMTk3Njk4OQ@@._V1_SY1000_CR0,0,743,1000_AL_.jpg");
+}
+
+.load-4 {
+        animation:load-it 0.1s forwards;
+    animation-iteration-count:1;
+    animation-delay:2s;
+    opacity:0;
+    background-image:url("http://starwarsblog.starwars.com/wp-content/uploads/2017/09/mark-hamill-headshot-2017.jpg");
+}
+
+.load-5 {
+        animation:load-it 0.1s forwards;
+    animation-iteration-count:1;
+    animation-delay:2.5s;
+    opacity:0;
+    background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Jason_Dohring_by_Gage_Skidmore.jpg/1200px-Jason_Dohring_by_Gage_Skidmore.jpg");
+}
+
+.load-6 {
+        animation:load-it 0.1s forwards;
+    animation-iteration-count:1;
+    animation-delay:3s;
+    opacity:0;
+    background-image:url("http://static.tvgcdn.net/mediabin/showcards/celebs/k-l/thumbs/leonardo-dicaprio_sc_768x1024.png");
+}
+
+.load-7 {
+        animation:load-it 0.1s forwards;
+    animation-iteration-count:1;
+    animation-delay:3.5s;
+    opacity:0;
+    background-image:url("https://vignette.wikia.nocookie.net/stargate/images/0/07/Enrico_Colantoni.jpg/revision/latest?cb=20090824093652");
+}
+
+.load-8 {
+        animation:load-it 0.1s forwards;
+    animation-iteration-count:1;
+    animation-delay:4s;
+    opacity:0;
+    background-image:url("https://i.imgur.com/2IBV5U5.jpg");
+}
+.load-9 {
+        animation:load-it 0.1s forwards;
+    animation-iteration-count:1;
+    animation-delay:4.5s;
+    opacity:0;
+    background-image:url("http://static.tvgcdn.net/mediabin/showcards/celebs/g-i/thumbs/harry-hamlin_sc_768x1024.png");
+}
+.load-10 {
+        animation:load-it 0.1s forwards;
+    animation-iteration-count:1;
+    animation-delay:5s;
+    opacity:0;
+    background-image:url("http://vignette2.wikia.nocookie.net/veronicamars/images/0/0f/Teddy_Dunn.jpg/revision/latest?cb=20140211054702");
+}
+
+.load-11 {
+        animation:load-it 0.1s forwards;
+    animation-iteration-count:1;
+    animation-delay:5.5s;
+    opacity:0;
+    background-image:url("https://vignette.wikia.nocookie.net/disney/images/8/89/Oscar_Isaac.jpg/revision/latest?cb=20151221125357");
+}
+
+.load-12 {
+    animation:load-it 0.1s forwards;
+    animation-iteration-count:1;
+    animation-delay:6s;
+    opacity:0;
+    background-image:url("http://static.tvgcdn.net/mediabin/showcards/celebs/j/thumbs/john-boyega-327611_828x1104.png");
+}
+
+.load-banner{
+    padding:30px;
+    background:rgba(0,0,0,0.5);
+    position:absolute;
+    text-align:right;
+    font-family:sans-serif;
+    color:white;
+    top:35vh;
+    text-shadow:2px 3px 15px black;
+}
+
+.load-banner h1{
+    font-size:5rem;
+}
+.load-banner h2{
+    font-size:3rem;
+}
+.load-banner h1, .load-banner h2{
+    margin:0;
+}
+
+
+@keyframes load-it {
+    from {opacity:0;}
+    to {opacity:1;}
+}
